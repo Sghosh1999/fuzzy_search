@@ -13,3 +13,10 @@ This is a automatic Tracker generation Web Application which can generate daily,
 Input Field            |  Steps & Mathematical Formulation |
 :-------------------------:|:-------------------------: |
 ![](https://github.com/Sghosh1999/fuzzy_search/blob/3c883d4a077c758536e8b2a76e4cb80e4236c237/images/screen1.PNG)  |  ![](https://github.com/Sghosh1999/fuzzy_search/blob/3c883d4a077c758536e8b2a76e4cb80e4236c237/images/screen2.PNG) |
+
+# Steps :heart_eyes:
+
+- Step 1: Generating a Bag Of Words of teh Search results
+- Step 2: Calculating Word frequency ofeach words in the Bag Of Words.
+- Step 3: Calculating the Stop Index.
+- Step 4: Finalizing the results.
