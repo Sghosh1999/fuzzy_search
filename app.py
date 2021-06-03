@@ -3,7 +3,17 @@ import json
 import streamlit as st
 import collections
 import operator
+from PIL import Image
 
+
+#Headers & Titles
+st.title("Fuzzy Search Matcher :smile:")
+image = Image.open('./images/logo.png')
+
+
+
+
+st.image(image, caption='Sunrise by the mountains')
 
 def fuzzySearch(string_search):
     temp_str = ""
@@ -70,5 +80,36 @@ def search(string_8):
     return search_find2(fuzzySearch(string_8))
 
 
-input = st.text_input("Enter the search field")
-st.write(search(input))
+
+try:
+    input = st.text_input("Enter the search field")
+    if st.button("Search"):
+        st.write(search(input))
+except:
+    st.warning("Please enter a Serach Phrase")
+
+
+st.title("Working Principle :nerd_face:")
+st.markdown("""---""")
+st.write("Step 1: Generating a Bag Of Words of teh Search results")
+st.write("Step 2: Calculating Word frequency ofeach words in the Bag Of Words")
+st.write("Step 3: Calculating the Stop Index")
+st.write("Step 4: Finalizing the results")
+st.markdown("""---""")
+
+st.title("Mathematical Formulation :nerd_face:")
+
+st.markdown("**WF** = word frequency of search results")
+st.latex(r'''SI (Stop Index) = max(WF) - \frac{\sum_{i=1}^{n} WF}{n}''')
+
+st.latex(r'''f(result String) = \begin{cases}
+word(i) & \text{ if } WF(word(i)) > SI \\ 
+ skip & \text{ if } WF(word(i)) < SI 
+\end{cases}''')
+
+
+
+
+
+
+
