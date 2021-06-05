@@ -26,7 +26,15 @@ Input Field            |  Steps & Mathematical Formulation |
 
 ## Examples
 
-- The search results are fetching from **Google Search API ( rapid API)** . So **search resposnses may differ** in each API call.
+- The search results are fetching from **Google Search API ( rapid API)** . So **search resposnses may differ** in each API call. 
+- **Refresh the App to get your desired results**, if first time you didn't get the accurate results.
+
+Examples          |  Examples |
+:-------------------------:|:-------------------------: |
+![](https://github.com/Sghosh1999/fuzzy_search/blob/1aa1e4c0bfc233828c1f69b69366713d542f1ea4/images/ex1.jpg)  |  ![](https://github.com/Sghosh1999/fuzzy_search/blob/1aa1e4c0bfc233828c1f69b69366713d542f1ea4/images/ex2.jpg) |
+![](https://github.com/Sghosh1999/fuzzy_search/blob/1aa1e4c0bfc233828c1f69b69366713d542f1ea4/images/ex3.jpg)  |  ![](https://github.com/Sghosh1999/fuzzy_search/blob/1aa1e4c0bfc233828c1f69b69366713d542f1ea4/images/ex4.jpg) |
+![](https://github.com/Sghosh1999/fuzzy_search/blob/1aa1e4c0bfc233828c1f69b69366713d542f1ea4/images/ex5.jpg)  |  ![](https://github.com/Sghosh1999/fuzzy_search/blob/1aa1e4c0bfc233828c1f69b69366713d542f1ea4/images/ex6.jpg) |
+![](https://github.com/Sghosh1999/fuzzy_search/blob/1aa1e4c0bfc233828c1f69b69366713d542f1ea4/images/ex7.jpg)  |  ![](https://github.com/Sghosh1999/fuzzy_search/blob/1aa1e4c0bfc233828c1f69b69366713d542f1ea4/images/ex8.jpg) |
 
 ---
 
@@ -81,6 +89,8 @@ This is an example of how to list things you need to use the software and how to
    ```sh
    git clone https://github.com/Sghosh1999/fuzzy_search.git
    ```
+   
+   Open Command prompt and navigate to the folder- 
 2. Create a Virtual Python environment
    ```python
    > python -m virtualenv myenv
