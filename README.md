@@ -116,7 +116,7 @@ This is an example of how to list things you need to use the software and how to
 ## Running the Application
 
 ```python
-$python -m streamlit run app.py
+python -m streamlit run app.py
 ```
 
 - For the first time it will ask you for the email. Please provide the email and the application will be open in your browser.
