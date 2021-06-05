@@ -42,7 +42,7 @@ Examples          |  Examples |
 ### Application Demo
 
 <p align="center">
-  <img src="https://github.com/Sghosh1999/AutoGenerateTrackers/blob/78abe5fbcf58ed1054bbfc28e3b3029ba6835384/demos/week_month_demo1.gif" alt="animated" />
+  <img src="https://github.com/Sghosh1999/fuzzy_search/blob/499749530b2f3c0d13e37c0c8587011ebe0a67db/images/fuzzy_demo.gif" alt="animated" />
 </p>
 
 # Steps :heart_eyes:
