@@ -31,7 +31,7 @@ Input Field            |  Steps & Mathematical Formulation |
 ---
 
 
-### Application Demo (Single User)
+### Application Demo
 
 <p align="center">
   <img src="https://github.com/Sghosh1999/AutoGenerateTrackers/blob/78abe5fbcf58ed1054bbfc28e3b3029ba6835384/demos/week_month_demo1.gif" alt="animated" />
@@ -92,7 +92,6 @@ This is an example of how to list things you need to use the software and how to
 4. Install necessary packages
    ```sh
    python -m pip install -r requirements.txt
-   python -m pip install openpyxl
    ```
 5. Check if these two packages are installed or not:
    ```sh
