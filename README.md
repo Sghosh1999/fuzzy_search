@@ -93,11 +93,11 @@ This is an example of how to list things you need to use the software and how to
    Open Command prompt and navigate to the folder- 
 2. Create a Virtual Python environment
    ```python
-    python -m virtualenv myenv
+   python -m virtualenv myenv
    ```
 3. Activate the Virtual environment
    ```python
-    myenv\scripts\activate
+   myenv\scripts\activate
    ```
 4. Install necessary packages
    ```sh
