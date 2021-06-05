@@ -103,11 +103,11 @@ This is an example of how to list things you need to use the software and how to
    ```sh
    python -m pip install -r requirements.txt
    ```
-5. Check if these two packages are installed or not:
+5. Check if these two packages are installed or not: (Optional)
    ```sh
    python -m streamlit --version
    ```
-   If streamlit is not recognized, then run the command
+   If streamlit is not recognized, then run the command (Optional if error)
 
 ```sh
   python -m pip install streamlit
