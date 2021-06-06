@@ -4,6 +4,20 @@
 
 > An advanced application for fuzzy search matching.!
 
+### Table of Contents  
+* [Description](#description)
+* [Features](#feat1)
+* [Result Dependencies](#depend1)
+* [Examples](#examples1)
+* [Application Demo](#demo1)  
+* [Mathematical Formulation](#form1)
+* [Prerequisites](#preq)
+* [Installation Guide](#guide1)
+
+
+----
+
+<a name="description"/>
 
 ## Description
 
@@ -14,15 +28,20 @@ Input Field            |  Steps & Mathematical Formulation |
 :-------------------------:|:-------------------------: |
 ![](https://github.com/Sghosh1999/fuzzy_search/blob/3c883d4a077c758536e8b2a76e4cb80e4236c237/images/screen1.PNG)  |  ![](https://github.com/Sghosh1999/fuzzy_search/blob/3c883d4a077c758536e8b2a76e4cb80e4236c237/images/screen2.PNG) |
 
+<a name="feat1"/>
 
 ## Features
 
 - Automatic Search Phrase Matcher.
 - Can Handle wrong Spellings.
 
+<a name="depend1"/>
+
 ## Result Dependencies
 
 - The search results are fetching from Google Search API ( rapid API) . So search resposnses may differ in each API call.
+
+<a name="examples1"/>
 
 ## Examples
 
@@ -38,6 +57,7 @@ Examples          |  Examples |
 
 ---
 
+<a name="demo1"/>
 
 ### Application Demo
 
@@ -53,6 +73,7 @@ Examples          |  Examples |
 - Step 4: Finalizing the results.
 
 
+<a name="form1"/>
 
 <p align="center">
   <img src="https://github.com/Sghosh1999/fuzzy_search/blob/7ab472ecfd877f8a3fb11ebeadd7fa68809bf7e9/images/screen3.PNG" alt="formula" />
@@ -75,13 +96,18 @@ This section should list any major frameworks that we have used to build the app
 
 In this section, A whole installation guide is mentioned. also trouble shooting guide is also given.
 
+
+<a name="preq"/>
+
 ## Prerequisites
 
 This is an example of how to list things you need to use the software and how to install them.
 
 - Python ( Version 3.8.5)
-- Streamlit (0.82.0)
 - Git
+
+
+<a name="guide1"/>
 
 ## Installation
 
@@ -90,7 +116,11 @@ This is an example of how to list things you need to use the software and how to
    git clone https://github.com/Sghosh1999/fuzzy_search.git
    ```
    
-   Open Command prompt and navigate to the folder- 
+   Open Command prompt and navigate to the folder ( fuzzy_search)
+   ```
+   cd fuzzy_search
+   ```
+
 2. Install & Create a Virtual Python environment
    ```python
    python -m pip install virtualenv
