@@ -4,6 +4,8 @@
 
 > An advanced application for fuzzy search matching.!
 
+## Live Demo : https://fuzzy-search-matcher.herokuapp.com/
+
 ### Table of Contents  
 * [Description](#description)
 * [Features](#feat1)
